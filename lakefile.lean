@@ -1,15 +1,15 @@
 import Lake
 open Lake DSL
 
-package feline {
+package «feline» {
   -- add package configuration options here
 }
 
-lean_lib Feline {
+lean_lib «Feline» {
   -- add library configuration options here
 }
 
-@[defaultTarget]
-lean_exe feline {
+@[default_target]
+lean_exe «feline» {
   root := `Main
 }
