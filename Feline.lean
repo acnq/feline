@@ -44,7 +44,7 @@ def fileStream (filename : System.FilePath) : IO (Option IO.FS.Stream) := do
 def help : IO Unit := do
   IO.println s!"Hello, use as echo something | ./build/bin/feline test1.txt - test2.txt"
 
-
+ 
 -- handling Input
 def process (exitCode : UInt32) (args : List String) : IO UInt32 := do
   match args with
